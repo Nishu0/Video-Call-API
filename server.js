@@ -50,6 +50,7 @@ io.on('connection', (socket) => {
 });
 
 app.get('/', (req, res) => {
+  console.log("API");
   res.send('Server is running');
 });
 
